@@ -11,3 +11,11 @@ if year%4==0:
         print(f"The year {year} is a leap year.")
 else:
     print(f"The year {year} is NOT a leap year.")
+    
+#MAYBE SHORTER ALTERNATIVE:
+#if year % 4 == 0 and year % 100 == 0 and year % 400 == 0:
+#  print("Leap year.")
+#elif year % 4 == 0 and year % 100 != 0:
+#  print("Leap year.")
+#else:
+#  print("Not leap year.")
